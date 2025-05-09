@@ -13,10 +13,18 @@ from pprint import pprint
 # arguments
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "-l", "--local-rpc", type=str, help="Enter the private local rpc URL", required=True
+    "-l", 
+    "--local-rpc", 
+    type=str, 
+    help="Enter the private local rpc URL", 
+    required=True
 )
 parser.add_argument(
-    "-p", "--public-rpc", type=str, help="Enter the public rpc URL", required=True
+    "-p", 
+    "--public-rpc", 
+    type=str, 
+    help="Enter the public rpc URL", 
+    required=True
 )
 parser.add_argument(
     "-d",
